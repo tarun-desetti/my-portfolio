@@ -6,7 +6,7 @@
 
 ---
 
-LIVE DEMO: [Click here to launch](https://9000-firebase-tarun-desetti-portf-1755246152482.cluster-xpmcxs2fjnhg6xvn446ubtgpio.cloudworkstations.dev/?monospaceUid=308014)
+LIVE DEMO: [Click here to launch]([https://9000-firebase-tarun-desetti-portf-1755246152482.cluster-xpmcxs2fjnhg6xvn446ubtgpio.cloudworkstations.dev/?monospaceUid=308014](https://tarun-desetti-portfolio.netlify.app/))
 
 
 
