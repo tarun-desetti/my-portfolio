@@ -6,8 +6,9 @@
 
 ---
 
-LIVE DEMO: [Click here to launch]((https://tarun-desetti-portfolio.netlify.app/))
-
+<p align="center">
+  <a href="https://tarun-desetti-portfolio.netlify.app/" target="_blank">🌐 Live Demo</a>
+</p>
 
 
 
