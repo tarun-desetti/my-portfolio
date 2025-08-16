@@ -53,7 +53,7 @@ const ProjectsSection = () => {
       image: 'src/assets/children.png', 
       techStack: ['HTML', 'CSS', 'JS', 'Node.js', 'MongoDB', 'Express.js', 'src/assets/children.png'],
       category: 'web',
-      link: '#'
+      link: 'https://github.com/tarun-desetti/CHILD-CARE-CO/tree/main/CHILD%20CARE%20CO'
     },
     {
       id: 3,
