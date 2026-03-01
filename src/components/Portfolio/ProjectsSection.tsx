@@ -1,27 +1,16 @@
 import { useState, useEffect, useRef } from 'react';
-import projectWeb from '@/assets/project-web.jpg';
-import projectAI from '@/assets/project-ai.jpg';
-<<<<<<< HEAD
+
 import portfolioImg from '@/assets/portfol.png';
-=======
-import carImg from '@/assets/car.png';
->>>>>>> 5c9302b (Added LeetCode section and new projects)
 import childrenImg from '@/assets/children.png';
 import taskImg from '@/assets/task.png';
 import horoImg from '@/assets/horo.png';
 import mlImg from '@/assets/ml.png';
-<<<<<<< HEAD
 import carImg from '@/assets/car.png';
-import whatsImg from '@/assets/whats.png';
-import divImg from '@/assets/div.png';
-
-=======
 import whatsImg from '@/assets/whats.png';
 import divImg from '@/assets/div.png';
 import examImg from '@/assets/exam.png';
 import javaImg from '@/assets/java.jpg';
 import internImg from '@/assets/intern.png';
->>>>>>> 5c9302b (Added LeetCode section and new projects)
 const ProjectsSection = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [activeFilter, setActiveFilter] = useState('all');
@@ -55,82 +44,7 @@ const ProjectsSection = () => {
 
   // Initialize projects array
   const projects = [
-<<<<<<< HEAD
-  {
-    id: 1,
-    title: 'Personal Portfolio',
-    description: 'A modern and futuristic portfolio showcasing my skills and projects.',
-    image: portfolioImg,
-    techStack: ['React', 'TypeScript', 'Tailwind CSS'],
-    category: 'web',
-    link: '#'
-  },
-  {
-    id: 2,
-    title: "Children's Therapy Center Website",
-    description: 'Designed and developed a website for a children\'s therapy center...',
-    image: childrenImg,
-    techStack: ['HTML', 'CSS', 'JS', 'Node.js', 'MongoDB', 'Express.js'],
-    category: 'web',
-    link: 'https://github.com/tarun-desetti/CHILD-CARE-CO/tree/main/CHILD%20CARE%20CO'
-  },
-  {
-    id: 3,
-    title: 'Task Management System',
-    description: 'Built a task management system for tracking daily activities...',
-    image: taskImg,
-    techStack: ['PHP', 'MySQL', 'XAMPP'],
-    category: 'web',
-    link: '#'
-  },
-  {
-    id: 4,
-    title: 'Interactive Horoscope Reveal Website',
-    description: 'Created a fun and responsive site with interactive UI elements...',
-    image: horoImg,
-    techStack: ['HTML', 'Tailwind CSS', 'JS'],
-    category: 'web',
-    link: 'https://github.com/tarun-desetti/Horoscope-reveal-web-application'
-  },
-  {
-    id: 5,
-    title: 'Real-time Online Transaction Fraud Detection',
-    description: 'Real-time online transaction fraud detection application...',
-    image: mlImg,
-    techStack: ['Python', 'Machine Learning (Accuracy, Precision, Recall, F1 Score)'],
-    category: 'ai',
-    link: 'https://github.com/tarun-desetti/ONLINE_FRAUD_TRANSACTION_DETECTION_ML'
-  },
-  {
-    id: 6,
-    title: 'Dynamic Online Car Rental System',
-    description: 'Build a dynamic online car rental system using PHP...',
-    image: carImg,
-    techStack: ['PHP', 'SQL'],
-    category: 'web',
-    link: 'https://github.com/tarun-desetti/ONLINE-VEHICLE-RENTAL-SYSTEM'
-  },
-  {
-    id: 7,
-    title: 'WhatsApp UI/UX Clone',
-    description: 'A UI/UX project recreating the user interface...',
-    image: whatsImg,
-    techStack: ['Figma', 'UI/UX Design'],
-    category: 'design',
-    link: 'https://www.figma.com/design/gYe55CwTCJ2DFzFgf1uXgZ/Untitled?node-id=28-51&p=f&m=draw'
-  },
-  {
-    id: 8,
-    title: 'E-commerce Site Landing Page',
-    description: 'Designed a landing page for an e-commerce site.',
-    image: divImg,
-    techStack: ['Figma', 'UI/UX Design'],
-    category: 'design',
-    link: 'https://www.figma.com/design/JBc672nbGdPr034otefRvb/hi?node-id=0-1&p=f&m=draw'
-  }
-];
 
-=======
     {
       id: 1, // Using unique IDs
       title: 'Personal Portfolio',
@@ -236,7 +150,6 @@ const ProjectsSection = () => {
       link: 'https://github.com/tarun-desetti/Horoscope-reveal-web-application'
     }
   ];
->>>>>>> 5c9302b (Added LeetCode section and new projects)
 
   const filters = [
     { id: 'all', label: 'All Projects' },
