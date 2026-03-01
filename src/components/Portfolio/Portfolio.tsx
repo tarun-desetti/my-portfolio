@@ -5,6 +5,7 @@ import AboutSection from './AboutSection';
 import ProjectsSection from './ProjectsSection';
 import SkillsSection from './SkillsSection';
 import ContactSection from './ContactSection';
+import LeetCodeSection from "./LeetCodeSection";
 import Footer from './Footer';
 
 const Portfolio = () => {
@@ -36,6 +37,7 @@ const Portfolio = () => {
       <Navigation activeSection={activeSection} />
       <HeroSection />
       <AboutSection />
+      <LeetCodeSection />
       <ProjectsSection />
       <SkillsSection />
       <ContactSection />

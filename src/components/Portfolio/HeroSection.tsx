@@ -78,14 +78,14 @@ const HeroSection = () => {
           {/* Tagline */}
           <p className="text-xl md:text-2xl text-glass-foreground mb-8 font-orbitron">
             <span className="text-primary-glow">Full Stack Developer</span> • 
-            <span className="text-neon-blue"> Data Science Enthusiast</span> • 
+            <span className="text-neon-blue"> Data Structures Enthusiast</span> • 
             <span className="text-accent"> UI/UX Designer</span>
           </p>
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a
-              href="https://drive.google.com/uc?export=download&id=1HcTfa7gcLct-V9ZiL0YPx4o3EQn9wzW4"
+              href="https://drive.google.com/file/d/1Fh7ICqfBszL-eFZXlQ-yEObDzieCF3wE/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-gaming"

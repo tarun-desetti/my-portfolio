@@ -210,7 +210,7 @@ const ContactSection = () => {
                     Get a detailed overview of my experience, skills, and achievements.                   
                   </p>
                   <a
-                    href="https://drive.google.com/file/d/1HcTfa7gcLct-V9ZiL0YPx4o3EQn9wzW4/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1Fh7ICqfBszL-eFZXlQ-yEObDzieCF3wE/view?usp=sharing"
                     download
                     className="btn-gaming inline-block"
                   >
