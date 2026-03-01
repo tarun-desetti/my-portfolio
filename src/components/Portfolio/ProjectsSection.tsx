@@ -50,7 +50,7 @@ const ProjectsSection = () => {
       title: 'Personal Portfolio',
       description: 'A modern and futuristic portfolio showcasing my skills and projects.',
       // You might want to add a specific image for your portfolio project if available
-      image: '/src/assets/portfol.png', 
+      image: portfolioImg, 
       techStack: ['React', 'TypeScript', 'Tailwind CSS'],
       category: 'web',
       // Placeholder link - replace with actual live demo link later
@@ -60,7 +60,7 @@ const ProjectsSection = () => {
       id: 2,
       title: 'Children\'s Therapy Center Website',
       description: 'Designed and developed a website for a children\'s therapy center, incorporating appointment booking, therapy session details, and an interactive UI for parents and therapists.',
-      image: 'src/assets/children.png', 
+      image: childrenImg, 
       techStack: ['HTML', 'CSS', 'JS', 'Node.js', 'MongoDB', 'Express.js', 'src/assets/children.png'],
       category: 'web',
       link: '#'
@@ -69,7 +69,7 @@ const ProjectsSection = () => {
       id: 5,
       title: 'Real-time Online Transaction Fraud Detection',
       description: 'Real-time online transaction fraud detection application using machine learning and model training.',
-      image: 'src/assets/ml.png', // Assuming an AI/ML project uses an AI-related image
+      image:mlImg, // Assuming an AI/ML project uses an AI-related image
       techStack: ['Python', 'Machine Learning (Accuracy, Precision, Recall, F1 Score)'],
       category: 'ai',
       link: 'https://github.com/tarun-desetti/ONLINE_FRAUD_TRANSACTION_DETECTION_ML' // Add link if available
@@ -78,7 +78,7 @@ const ProjectsSection = () => {
       id: 6,
       title: 'Dynamic Online Car Rental System',
       description: 'Build a dynamic online car rental system using PHP for backend logic and SQL for managing vehicle, user, and booking data.',
-      image: 'src/assets/car.png', // Assuming a web-based system
+      image:carImg, // Assuming a web-based system
       techStack: ['PHP', 'SQL'],
       category: 'web',
       link: 'https://github.com/tarun-desetti/ONLINE-VEHICLE-RENTAL-SYSTEM' // Add link if available
@@ -116,7 +116,7 @@ const ProjectsSection = () => {
       id: 7, // Assign the next available ID
       title: 'WhatsApp UI/UX Clone',
       description: 'A UI/UX project recreating the user interface and experience of the WhatsApp messaging application.',
-      image: 'src/assets/whats.png', // Or a specific design image if you have one
+      image: whatsImg, // Or a specific design image if you have one
       techStack: ['Figma', 'UI/UX Design'],
       category: 'design',
       link: 'https://www.figma.com/design/gYe55CwTCJ2DFzFgf1uXgZ/Untitled?node-id=28-51&p=f&m=draw' // Add link if available
@@ -126,7 +126,7 @@ const ProjectsSection = () => {
       id: 8, // Assign the next available ID dynamically
       title: 'E-commerce Site Landing Page',
       description: 'Designed a landing page for an e-commerce site.',
-      image: 'src/assets/div.png', // Or a specific design image if you have one
+      image: divImg, // Or a specific design image if you have one
       techStack: ['Figma', 'UI/UX Design'],
       category: 'design',
       link: 'https://www.figma.com/design/JBc672nbGdPr034otefRvb/hi?node-id=0-1&p=f&m=draw' // Add link if available
@@ -135,7 +135,7 @@ const ProjectsSection = () => {
       id: 3,
       title: 'Task Management System',
       description: 'Built a task management system for tracking daily activities, task prioritization, and progress monitoring, implemented user authentication and task categorization for efficient management.',
-      image: 'src/assets/task.png', 
+      image: taskImg, 
       techStack: ['PHP', 'MySQL', 'XAMPP'],
       category: 'web', // Assuming a web-based system
       link: '#'
@@ -144,7 +144,7 @@ const ProjectsSection = () => {
       id: 4,
       title: 'Interactive Horoscope Reveal Website',
       description: 'Created a fun and responsive site with interactive UI elements to forecast the user\'s lifestyle with their date of birth.',
-      image: 'src/assets/horo.png', 
+      image: horoImg, 
       techStack: ['HTML', 'Tailwind CSS', 'JS'],
       category: 'web',
       link: 'https://github.com/tarun-desetti/Horoscope-reveal-web-application'
