@@ -8,7 +8,7 @@
 
 <<<<<<< HEAD
 <p align="center">
-  <a href="https://tarun-desetti-portfolio.netlify.app/" target="_blank">🌐 Live Demo</a>
+  <a href="https://tarun-desetti-portfo.netlify.app/" target="_blank">🌐 Live Demo</a>
 </p>
 
 
